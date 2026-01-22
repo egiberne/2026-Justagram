@@ -1,5 +1,5 @@
 # The Justagram 📝
-_Justagram is an accessible and responsive webpage to display a Instagram clone post._
+_Justagram is an accessible and responsive webpage to display an Instagram clone post._
 
 ## 🛠️ Built With
 Here are technologies:
