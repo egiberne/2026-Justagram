@@ -27,7 +27,7 @@ footer{
 .horizontal-rule{
     border-bottom:solid 1px #C6C6C6;
     display:flex;
-    justify-content: space-between;
+    
  
 }
 
@@ -39,13 +39,21 @@ footer{
 }
 
 .avatar {
-    margin : 0 15px;
-    border-radius:100%;
+    border-radius:50%;
     width: 34px;
+    margin:auto 0 auto 0;
+}
+
+#user-image .avatar {
+    
+    border-radius:50%;
+    width: 34px;
+    
 }
 
 #user-image{
-    padding-top:15px;
+
+    margin: auto 10px auto auto;
 }
 
 p{
@@ -85,7 +93,7 @@ address{
 
 #profile {
     display:flex;
-    justify-content: ;
+    
 }
 
 
@@ -96,12 +104,12 @@ address{
 .icon:hover,
 .icon:focus{
     border: dotted 1px blue;
+    cursor: pointer;
 }
 
-.icon{
-    border-radius: 50%;
-}
+
 
 #location{
     padding-top:5px ;
 }
+
