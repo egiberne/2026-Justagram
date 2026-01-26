@@ -7,8 +7,14 @@ See all notable changes to this project documented in this file. The log of my #
 - Implement NoSQL database to store the number of Likes
 - Change le logo for Justagram
 - Add a favicon
-- Display the other portrait with a javascipt implemenation
+- Implement a modal or pop-up
 
+
+## [0.0.4] - 2026-01-25
+
+### Added
+
+- Implement the code to display the other posts in javascript
 
 ## [0.0.3] - 2026-01-23
 
