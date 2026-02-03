@@ -8,7 +8,14 @@ See all notable changes to this project documented in this file. The log of my #
 - Change le logo for Justagram
 - Add a favicon
 - Implement a modal or pop-up
+- Use Javascript to increase the likes when double clicking the post
 
+
+## [0.0.5] - 2026-01-31
+
+### Added
+
+- Implement export/import to keep the code DRY
 
 ## [0.0.4] - 2026-01-25
 
