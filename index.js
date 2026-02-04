@@ -2,30 +2,30 @@ import {posts} from './data.js'
 
 const main = document.getElementById('main')
 const footer = document.getElementById('footer')
-
-let i 
-
-for(i = 0 ; i< posts.length ; i++){
+let html =``
 
 
-    console.log(posts[i])
+for(let post of posts){
 
-    main.innerHTML += main.innerHTML=`
+
+    console.log(post)
+
+    main.innerHTML += `
             <div class="container">
                 <div id="profile">
                     
                     
-                         <img  id="publisher" class="avatar" src=${posts[i].avatar} alt="A potrait of Vincent Van Gogh.">
+                         <img  id="publisher" class="avatar" src=${post.avatar} alt="A potrait of Vincent Van Gogh.">
                     
                     
                     <div id="identification">
-                        <p id="name" class="boldface">${posts[i].name}</p>
-                        <address id="location"> ${posts[i].location}</address>
+                        <p id="name" class="boldface">${post.name}</p>
+                        <address id="location"> ${post.location}</address>
                     </div> 
                       
                 </div>
                 
-                      <img  id="post" src=${posts[i].post} alt="A painted portrait of a man called,${posts[i].name}.">
+                      <img  id="post" src=${post.post} alt="A painted portrait of a man called,${post.name}.">
                 
             </div>
     
@@ -37,9 +37,11 @@ for(i = 0 ; i< posts.length ; i++){
                     <img src="images/icon-dm.png" class="icon" alt="A rocket airplan to symbolize, direct messages">
                 </div>
                 
-                <p id="likes" class="boldface">${posts[i].likes}</p>
+                <p id="likes" class="boldface">${post.likes}</p>
                 
-                <p id="comments"><span id="username" class="boldface">${posts[i].username} </span>${posts[i].comment}</p>
+                <p id="comments"><span id="username" class="boldface">${posts.username} </span>${posts.comment}</p>
             </div>
     `
 }
+
+ //main.innerHTML = html

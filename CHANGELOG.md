@@ -9,7 +9,12 @@ See all notable changes to this project documented in this file. The log of my #
 - Add a favicon
 - Implement a modal or pop-up
 - Use Javascript to increase the likes when double clicking the post
+- Use more class instand of Id
+- Remove the first post in hard coded
 
+## [0.0.6] - 2026-02-03
+
+- Implement a loop **for of**
 
 ## [0.0.5] - 2026-01-31
 
